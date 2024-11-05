@@ -4,10 +4,43 @@
   "description": "This repo for creating user authentication apis using node, express, mongodb, graphql + apollo",
   "main": "index.js",
   "repository": "git@github.com:usamasadiqus/user-authentication-node-express-mongodb-graphql.git",
-  "keywords": ["nodejs", "node", "expressjs", "express", "mongodb", "mongoose", "graphql", "apollo-server-express", "apollo graphql", "user auth", "user auth graphql", "user auth flow graphql"],
+  "keywords": [
+    "nodejs",
+    "node",
+    "expressjs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "graphql",
+    "apollo-server-express",
+    "apollo graphql",
+    "user auth",
+    "user auth graphql",
+    "user-authentication",
+    "auth-flow",
+    "api",
+    "authentication",
+    "jwt",
+    "authorization",
+    "graphql-auth",
+    "backend",
+    "REST",
+    "express-middleware"
+  ],
   "author": "Usama Sadiq <usamasadiq029@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": "22.9.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "graphql": "^16.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7"
   }
 }
